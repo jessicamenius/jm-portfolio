@@ -10,14 +10,14 @@ function Header() {
   return (
     <div>
       <nav>
-        <div className="nav-wrapper white black-text">
-          <Link to="/" className="brand-logo black-text">
+        <div className="nav-wrapper white">
+          <Link to="/" className="brand-logo">
             Jessica Menius
           </Link>
-          <a data-target="mobile-demo" className="sidenav-trigger black-text">
-            <i className="material-icons black-text">menu</i>
+          <a data-target="mobile-demo" className="sidenav-trigger">
+            <i className="material-icons">menu</i>
           </a>
-          <ul className="right hide-on-med-and-down black-text">
+          <ul className="right hide-on-med-and-down">
             <li>
               <Link to="/resume">Resume</Link>
             </li>
@@ -38,13 +38,13 @@ function Header() {
         <li className="black-text">
           <Link to="/resume">Resume</Link>
         </li>
-        <li className="black-text">
+        <li>
           <Link to="/projects">Projects</Link>
         </li>
-        <li className="black-text">
+        <li>
           <Link to="/skills">Technical Skills</Link>
         </li>
-        <li className="black-text">
+        <li>
           <Link to="/contact">Contact Me</Link>
         </li>
       </ul>
