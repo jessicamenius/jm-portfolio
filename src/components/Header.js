@@ -10,8 +10,8 @@ function Header() {
   return (
     <div>
       <nav>
-        <div className="nav-wrapper white">
-          <Link to="/" className="brand-logo">
+        <div className="nav-wrapper grey darken-2">
+          <Link to="/" className="brand-logo ">
             Jessica Menius
           </Link>
           <a data-target="mobile-demo" className="sidenav-trigger">
