@@ -10,7 +10,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col l6 s12">
-            <h5 className="white-text">Contact Information</h5>
+            <h6 className="white-text">Contact Information</h6>
             <p className="grey-text text-lighten-4">
               <i class="material-icons">email</i>
               &nbsp; jessicamenius@gmail.com
@@ -21,7 +21,7 @@ function Footer() {
             </p>
           </div>
           <div className="col l4 offset-l2 s12">
-            <h5 className="white-text">Find me online</h5>
+            <h6 className="white-text">Find me online</h6>
             <a href="https://www.linkedin.com/in/jessicamenius/">
               <img className="contact-icon" src={linkedIn} alt="linkedIn" />
             </a>

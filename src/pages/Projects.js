@@ -16,7 +16,7 @@ function Projects() {
               icon="directions_bike"
               title="MERN Health Tracker"
               description={
-                "The 'My Exercise Rest & Nutrition' (MERN) health tracker was created as a final project for my full stack web development classes. It uses the full MERN stack (MySQL, Express, React, Node) and utilized JWT for user authentication."
+                "The 'My Exercise Rest & Nutrition' (MERN) Health Tracker is the final group project created in the Web Development Bootcamp. This app is a full MERN stack app (MySQL, Express, React, Node) and utilizes JWT for user authentication."
               }
               technologies={[
                 "JavaScript",
@@ -37,7 +37,7 @@ function Projects() {
             <ProjectContainer
               icon="book"
               title="Shoequelize"
-              description="Book It was created as a group project in class. The brief was to use bcrypt, passport, and MySQL to power a website that can display user-specific information."
+              description="Shoequelize is a group project developed in UC Berkeley Extension Program Web Development Bootcamp. The brief was to use bcrypt, passport, and MySQL to power a website that can display user-specific information."
               technologies={[
                 "JavaScript / jQuery / ajax",
                 "axios",
@@ -49,24 +49,24 @@ function Projects() {
                 "passport / passport-local",
                 "Sequelize / sequelize-cli",
               ]}
-              repo="https://github.com/MatWilmot/bucketList"
-              app="https://group4-bucket-list.herokuapp.com/"
+              repo="https://github.com/jessicamenius/Shoequelize"
+              app="https://jm-shoequelize.herokuapp.com/"
             />
 
             <ProjectContainer
               icon="videogame_asset"
               title="Games App"
-              description="Lorem ipsum."
+              description="From a landing page, 6 games developed by individual team members are available for play. The page can be toggled between light and dark mode.."
               technologies={[
                 "JavaScript / jQuery / ajax",
                 "Local Storage",
-                "Third-party (giphy) API",
+                "Third-party  API",
               ]}
-              repo="https://github.com/MatWilmot/Gif-search-app"
-              app="https://matwilmot.github.io/Gif-search-app/"
+              repo="https://github.com/jessicamenius/GamesApp"
+              app="https://jessicamenius.github.io/GamesApp/Index"
             />
 
-            <ProjectContainer
+            {/* <ProjectContainer
               icon="cloud"
               title="Global Weather Application"
               description="This weather application was created as a homework project for className. We were challenged to use the OpenWeatherMap API and Bootstrap to create a weather dashboard that could search any city or town."
@@ -95,7 +95,7 @@ function Projects() {
               technologies={["JavaScript"]}
               repo="https://github.com/MatWilmot/homework-03-password-generator"
               app="https://matwilmot.github.io/homework-03-password-generator/"
-            />
+            /> */}
           </ul>
         </div>
       </div>
