@@ -8,6 +8,8 @@ function Resume() {
 
   return (
     <div className="container top-margin center">
+        <br/>
+
       <div className="row">
         <div className="col s12 xl10 offset-xl1">
           <ul className="collapsible">
