@@ -27,9 +27,6 @@ function Header() {
             <li>
               <Link to="/skills">Technical Skills</Link>
             </li>
-            <li>
-              <Link to="/contact">Contact Me</Link>
-            </li>
           </ul>
         </div>
       </nav>
@@ -43,9 +40,6 @@ function Header() {
         </li>
         <li>
           <Link to="/skills">Technical Skills</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact Me</Link>
         </li>
       </ul>
     </div>

@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 function Resume() {
+  useEffect(() => {
+    M.AutoInit();
+  }, []);
+
   return (
     <div className="container top-margin center">
       <div className="row">
         <div className="col s12 xl10 offset-xl1">
           <ul className="collapsible">
-            <li>
+          <li class="active">
               <div className="collapsible-header">
                 <i className="material-icons">work</i>Work Experience
               </div>
               <div className="collapsible-body">
                 <ul className="collapsible">
                   <li>
+
+
                     <div className="collapsible-header">Cisco Systems</div>
                     <div className="collapsible-body">
                       <span>Lorem ipsum dolor sit amet.</span>
@@ -25,6 +32,7 @@ function Resume() {
                       <span>Lorem ipsum dolor sit amet.</span>
                     </div>
                   </li>
+                
 
                   <li>
                     <div className="collapsible-header">United Airlines</div>

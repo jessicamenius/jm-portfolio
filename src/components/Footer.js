@@ -6,9 +6,11 @@ import medium from "../components/img/circled_medium_svg5-512.png";
 
 function Footer() {
   return (
-    <footer className="page-footer grey darken-2">
+    <footer className="page-footer sticky grey darken-2">
       <div className="container">
         <div className="row">
+        <div className="row">
+
           <div className="col l6 s12">
             <h6 className="white-text">Contact Information</h6>
             <p className="grey-text text-lighten-4">
@@ -43,14 +45,10 @@ function Footer() {
       <div className="footer-copyright">
         <div className="container">
           © 2020 Jessica Menius
-          <a
-            className="grey-text text-lighten-4 right"
-            href="https://1drv.ms/w/s!Am-87QIldxPtaz6yI0ZYMgnx3kU"
-          >
-            Resume
-          </a>
         </div>
       </div>
+      </div>
+
     </footer>
   );
 }
