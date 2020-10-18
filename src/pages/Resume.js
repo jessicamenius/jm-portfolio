@@ -12,7 +12,7 @@ function Resume() {
 
       <div className="row">
         <div className="col s12 xl10 offset-xl1">
-          <ul className="collapsible">
+          <ul className="collapsible grey lighten-5">
           <li class="active">
               <div className="collapsible-header">
                 <i className="material-icons">work</i>Work Experience
