@@ -48,7 +48,6 @@ function Footer() {
       <div className="footer-copyright center">
         <div className="container">
           © 2020 Jessica Menius
-      
         </div>
       </div>
     </footer>

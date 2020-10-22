@@ -12,11 +12,7 @@
 
 ## Contributions
 
-- Met every evening for at least 2 hours
-- Over 300 commits with very few merge conflicts
-- Worked together to fix bugs in code
-- Games individually created by each team member
-- Collaborated on landing page, highscore page, and end of game workflows
+
 
 
 ## Packages (back-end)
@@ -43,4 +39,3 @@
 
 ## Landing Page
 
-![demo](assets/darkmode.gif)
